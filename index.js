@@ -6507,7 +6507,7 @@ class GraphicsDevice extends EventHandler {
 						this.setResolution(640, 360);
 				}
 		}
-		setResolution(640, 360) {
+		this.setResolution(640, 360); {
 				this.canvas.width = width;
 				this.canvas.height = height;
 				this.fire(GraphicsDevice.EVENT_RESIZE, width, height);
